@@ -8,6 +8,8 @@ type TextProps = {
 }
 
 export const TextType = {
+    tt: 'font-semibold sm:text-tt text-tt',
+    tn: 'font-normal sm:text-tn text-tn',
     pd: 'font-semibold sm:text-4xl text-4xl',
     h1: 'font-semibold sm:text-h1 text-mh1',
     h2: 'font-semibold sm:text-h2 text-mh2',
@@ -27,7 +29,8 @@ export const TextType = {
 
 const ColorType = {
     white: 'text-white',
-    black: 'text-black'
+    black: 'text-black',
+    primary: 'text-[#F1875E]'
 }
 
 export const Text = (props: TextProps) => {

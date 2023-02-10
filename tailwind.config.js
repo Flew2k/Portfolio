@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        'developer': "url('/assets/Developer.svg')"
+      },
       screens: {
         sm: '675px',
         md: '768px',
@@ -22,6 +25,8 @@ module.exports = {
         }
       ],
       fontSize: {
+        tt: ['66px', '84px'],
+        tn: ['48px', '72px'],
         pd: ['42px', '44px'],
         h1: ['18px', '24px'],
         h2: ['16px', '24px'],
