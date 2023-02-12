@@ -15,7 +15,7 @@ export const LandingPageWelcomeSection: NextPage = () => {
       <div className="flex flex-row justify-between w-full px-5 pt-5 mx-auto">
         <div className="flex flex-row items-center gap-1 select-none">
           <Text variant="tn" color="white">
-            Duuk
+            Flew
           </Text>
           <Text variant="tn" color="primary">
             .
