@@ -11,7 +11,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'developer': "url('/assets/Developer.svg')"
+        'developer': "url('/assets/Developer.svg')",
+        'me' : "url('/assets/me.png')"
+      },
+      colors: {
+        'primary': '#F1875E',
       },
       screens: {
         sm: '675px',
@@ -25,7 +29,9 @@ module.exports = {
         }
       ],
       fontSize: {
-        tt: ['66px', '84px'],
+        tt: ['96px', '94px'],
+        ttm: ['66px', '64px'],
+        tts: ['46px', '44px'],
         tn: ['48px', '72px'],
         pd: ['42px', '44px'],
         h1: ['18px', '24px'],
@@ -56,6 +62,7 @@ module.exports = {
         mdl: ['24px', '28px'],
         mdm: ['21px', '28px'],
         mds: ['16px', '24px'],
+        bt: ['24px', '36px']
       },
     },
   },
