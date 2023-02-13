@@ -8,7 +8,7 @@ type TextProps = {
 }
 
 export const TextType = {
-    tt: 'font-semibold sm:text-tt text-tt',
+    tt: 'font-semibold lg:text-tt md:text-ttm text-tts',
     tn: 'font-normal sm:text-tn text-tn',
     pd: 'font-semibold sm:text-4xl text-4xl',
     h1: 'font-semibold sm:text-h1 text-mh1',
